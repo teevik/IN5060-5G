@@ -1,0 +1,20 @@
+[project]
+name = "in5060-5g"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel",
+    "pandas",
+    "pandas-stubs",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "scikit-posthocs",
+    "polars",
+    "pyarrow"
+]
+
+[tool.pyright]
+typeCheckingMode = "basic"
