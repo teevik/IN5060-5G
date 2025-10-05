@@ -37,7 +37,7 @@ ALPHA = 0.05  # Significance level
 # %% Load Data
 print_heading("Loading Data")
 
-all_data = []
+all_data: list[pl.DataFrame] = []
 
 for loc_num, loc_type in LOCATIONS.items():
     # Find all outdoor files for this location
